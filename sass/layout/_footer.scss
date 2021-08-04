@@ -1,0 +1,26 @@
+.footer {
+    padding: 50px 0 40px 0;
+    background-color: #141114;
+    .footer-img {
+        display: flex;
+        justify-content: center;
+        padding: 0 20px;
+    }
+    .footer-end {
+        margin-top: 40px;   
+        p{
+            font-size: 15px;
+            line-height: 1.2;
+            color: #fff;
+            text-align: center;
+        }
+    }
+}
+@media screen and (max-width: 767px){
+    .footer{
+        padding: 32px 0 40px 0;
+    }
+    .footer .footer-end p {
+        font-size: 14px;
+    }
+}
